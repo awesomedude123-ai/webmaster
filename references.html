@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-US>
+
+<head>
+	<meta charset=" utf-8 ">
+	<meta name="viewport " content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+	<title>References</title>
+	<link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css "
+  
+   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm "
+	 crossorigin="anonymous ">
+
+	<link href="style.css " rel="stylesheet " type="text/css " />
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN
+ " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q
+ " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl
+ " crossorigin="anonymous "></script>
+
+
+</head>
+
+<body style="margin-top: 0px;">
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-between align-middle ">
+		<ul class="navbar-nav navbar-expand-sm ">
+			<li class="nav-brand active ">
+        <span>
+        <p class="lead " style="font-size:50px;">
+				<a class="nav-brand nav-link active " href="https://webmaster.worldmedcomms.repl.co/index.html"><img src="Images/worldmedcommslogo.png" alt="Logo " width="80" href ="https://webmaster.worldmedcomms.repl.co/">WorldMed Communications </a>
+        </p>
+        </span>
+			</li>
+		</ul>
+    <form class="form-inline ">
+    <ul class="nav navbar-nav navbar-right ">
+      <li class="nav-item dropdown mr-lg-2 " padding: "300 px ">
+        <a class="nav-link dropdown-toggle lead" href="# " id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/virtualCheckUps.html">Virtual Check-Ups</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/treatmentplans.html#">Treatment Plans</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/nutrition.html">Nutrition</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/secondopinionsources.html">Second Opinion Sources</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/cart.html">Over The Counter Medicine</a>
+          
+        </div>
+      </li>
+      <li class="nav-item dropdown mr-lg-2 ">
+        <a class="nav-link dropdown-toggle lead" href="# " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Solutions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/healthSystems.html#!">Health Systems</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/pharmacy.html">Pharmacies</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://webmaster.worldmedcomms.repl.co/manufacturingSolutions.html">Manufacturing Solutions</a>
+        </div>
+      </li>
+			<li class="nav-item mr-lg-2 ">
+				<a class="nav-link " href="https://webmaster.worldmedcomms.repl.co/news.html"><p class="lead ">News</p></a>
+			</li>
+			<li class="nav-item mr-lg-2 ">
+				<a class="nav-link " href="https://webmaster.worldmedcomms.repl.co/aboutUs.html#"><p class="lead ">About Us</p></a>
+			</li>
+		</ul>
+    <a class="nav-link btn btn-secondary mr-lg-2" href="https://webmaster.worldmedcomms.repl.co/contactUs.html" style="margin-bottom: 10px;">
+      Contact Us
+    </a>
+
+  </form>  
+	</nav>
+<body>
+
+    <style>
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #fafafa;
+}
+
+.container {
+	max-width:100rem;
+	margin: 0 auto;
+	padding: 0 1rem 1rem;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30vw);
+    grid-gap: 1%;
+	/* Compensate for excess margin on outer gallery flex items */
+	//margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 26rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	//margin: 1rem;
+	box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+  height:100%;
+  width: 100%;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 200ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(0.75);
+}
+
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+    width: 100%;
+	height: 100%;
+	}
+}
+</style>
+    
+    
+    <div style="margin-top: 40px; text-align: center;">
+      <h2 style="font-size: 40px;"><strong>References</strong></h2>
+       <h3 style="font-size: 20px;">All the written content seen on our website was written by our team.</h3>
+       <br>
+      <h3 style="font-size: 20px;">All the images we used in our website are royalty free and our logo (Trademark of WorldMedCommunications) was designed by our team. </h3>
+      <br>
+       <h5 style="font-size: 20px;"> We used Bootstrap within this website but our team developed our own design and themes. </h5>
+       <br>
+       <h5 style="font-size: 20px;">Below are the citations for all the royalty free images used, the copyright checklist form pdf, and plan of work log pdf. </h5>
+        
+
+
+      <br><br>
+      </div>
+
+      <p>
+
+
+        
+      </p>
+        <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-5 text-center text-lg-left">
+      <img class="img-fluid" src="Images/pagelogo.png" alt="Sample image">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-7">
+
+      <div class="row mb-3">
+
+        <!-- Grid column -->
+        <div class="col-1">
+          <i class="fas fa-share fa-lg indigo-text"></i>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-xl-10 col-md-11 col-10">
+          <h3 class="font-weight-bold mb-3">Citations for Images
+</h3>
+        
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+     
+ <iframe src="Sources for TSA.pdf" width = 700px height = 500px style = "margin-bottom: 20px">
+  
+ </iframe>
+      <!-- Grid row -->
+      <div class="row mb-3">
+
+        <!-- Grid column -->
+        <div class="col-1">
+          <i class="fas fa-share fa-lg indigo-text"></i>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-xl-10 col-md-11 col-10">
+          <h3 class="font-weight-bold mb-3">Copyright Checklist Form
+</h3>
+        <p>Open <a href="webmaster.pdf"> our Copyright Checklist Form</a>.</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      <!-- Grid row -->
+      <div class="row mb-3">
+
+        <!-- Grid column -->
+        <div class="col-1">
+          <i class="fas fa-share fa-lg indigo-text"></i>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+      <div class="col-xl-10 col-md-11 col-10">
+          <h3 class="font-weight-bold mb-3">Plan of Work Log
+</h3>
+        <p>Open <a href="Plan of Work Log.pdf"> our Plan of Work Log</a>.</p>
+        </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      <!--Grid row-->
+      
+    <!--Grid column-->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+   </body>
+     <br><br><br>
+       <br>
+       <br>
+       <br>
+        <br>
+       
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark ">
+  <div style="background-color: #353a40; ">
+    <div class="container ">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center ">
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+
+  <!-- Footer Links -->
+
+  <div class="container text-center text-md-left ">
+
+    <!-- Grid row -->
+    <div class="row mt-3 white">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold " style="color: #ffffff;">WorldMed Communications</h6>
+        <hr class="white deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;">
+        <p class="twhite">To empower health care providers, bring physicians and patients together through our platform, and ensure equal access to quality medical attention through the development of innovative healthcare solutions and health information technologies</p>
+
+        <p class="twhite">
+          <a class="twhite text-muted " href="references.html ">References</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold ">Services</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/virtualCheckUps.html">Virtual Check-Ups</a>
+        </p>
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/treatmentplans.html#">Treatment Plans</a>
+        </p>
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/nutrition.html">Nutrition</a>
+        </p>
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/secondopinionsources.html">Second Opinion Sources</a>
+        </p>
+         <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/cart.html">Over-The-Counter Medicine</a>
+        </p>
+       
+
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold ">Solutions</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/healthSystems.html#!">Health Systems</a>
+        </p>
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/pharmacy.html#!">Pharmacies</a>
+        </p>
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/manufacturingSolutions.html#!">Manufacturing Solutions</a>
+        </p>
+        
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold ">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+        <address>
+           <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/contactUs.html">Contact Us</a>
+        </p>
+        <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/aboutUs.html#">About Us</a>
+        </p>
+         <p>
+          <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/faq.html#">FAQ</a>
+        </p>
+        
+        <p class="twhite">
+          Staff@medcommunications.org</p>
+        <p class="twhite">
+          <i class="fas fa-phone mr-3 "></i> 1-888-234-2675 </p>
+        <p class="twhite">
+          <i class="fas fa-print mr-3 "></i>1-888-479-5271</p>
+        </address>
+
+      </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+        <img src="Images/worldmedcommslogo.png" alt="Logo " width="200">
+
+            </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="twhite footer-copyright text-center py-3 ">© 2020 Copyright:
+    <a class="twhite text-muted " href="https://webmaster.worldmedcomms.repl.co/"> WorldMed.com</a>
+  </div>
+  <!-- Copyright -->
+</div>
+</footer>
+
+  </body>
+</html>
